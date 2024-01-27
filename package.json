@@ -4,12 +4,19 @@
   "description": "Backend for an ecommerce website",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "backend",
     "first"
   ],
   "author": "Diptanshu Banerjee",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3",
+    "prettier": "^3.2.4"
+  }
 }
