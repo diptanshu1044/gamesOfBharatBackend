@@ -1,0 +1,15 @@
+{
+  "name": "gamesofbharat-backend",
+  "version": "1.0.0",
+  "description": "Backend for an ecommerce website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "backend",
+    "first"
+  ],
+  "author": "Diptanshu Banerjee",
+  "license": "ISC"
+}
