@@ -4,7 +4,7 @@ import { connectDB } from "./database/connectDB.js"
 import { config } from "dotenv"
 
 //DB and Server Connection
-config({ path: './env' })
+config({ path: './.env' })
 connectDB()
   .then(() => {
     app.listen(process.env.PORT || 5174, () => {
