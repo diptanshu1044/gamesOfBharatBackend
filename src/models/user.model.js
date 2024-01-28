@@ -23,6 +23,11 @@ const userSchema = new Schema({
     requied: true,
     trim: true,
   },
+  // phoneNumber: {
+  //   type: Number,
+  //   requied: true,
+  //   unique: true,
+  // },
   avatar: {
     type: String,
     requied: false,

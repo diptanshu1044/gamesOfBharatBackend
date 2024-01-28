@@ -1,7 +1,7 @@
 //Higher order functions
 const asyncHandler = (requestHandler) => async(req, res, next) => {
   try {
-    await requestHandler(req, res, next)
+    return await requestHandler(req, res, next)
   } catch(err) {
     res.status(err.status).json({
       success: false,
